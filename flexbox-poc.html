@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>flexbox</title>
+</head>
+
+<body>
+
+    <div class="container" ng-controller="firstCtrl">
+        <div class="wrapper">
+            <div class="wrapper-child1">
+                <div class="child1" title="{{hoverData[0].wrapper1.first}}">
+                    1
+                </div>
+                <div class="child2" title="{{hoverData[0].wrapper1.second}}">
+                    2
+                </div>
+                <div class="child3" title="{{hoverData[0].wrapper1.third}}">
+                    3
+                </div>
+                <div class="child4" title="{{hoverData[0].wrapper1.fourth}}">
+                    4
+                </div>
+            </div>
+            <div class="wrapper-child2">
+                <div class="child1" title="{{hoverData[0].wrapper2.first}}">
+                    1
+                </div>
+                <div class="child2" title="{{hoverData[0].wrapper2.second}}">
+                    2
+                </div>
+                <div class="child3" title="{{hoverData[0].wrapper2.third}}">
+                    3
+                </div>
+                <div class="child4" title="{{hoverData[0].wrapper2.fourth}}">
+                    4
+                </div>
+            </div>
+            <div class="wrapper-child3">
+                <div class="child1" title="{{hoverData[0].wrapper3.first}}">
+                    1
+                </div>
+                <div class="child2" title="{{hoverData[0].wrapper3.second}}">
+                    2
+                </div>
+                <div class="child3" title="{{hoverData[0].wrapper3.third}}">
+                    3
+                </div>
+                <div class="child4" title="{{hoverData[0].wrapper3.fourth}}">
+                    4
+                </div>
+            </div>
+            <div class="wrapper-child4">
+                <div class="child1" title="{{hoverData[0].wrapper4.first}}">
+                    1
+                </div>
+                <div class="child2" title="{{hoverData[0].wrapper4.second}}">
+                    2
+                </div>
+                <div class="child3" title="{{hoverData[0].wrapper4.third}}">
+                    3
+                </div>
+                <div class="child4" title="{{hoverData[0].wrapper4.fourth}}">
+                    4
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="js/angular.js"></script>
+    <script src="js/all.js"></script>
+
+</body>
+
+</html>
